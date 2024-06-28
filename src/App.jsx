@@ -19,7 +19,7 @@ import "./App.css";
 import SocialsBar, { socialIcons } from "./components/SocialsBar";
 import ItemPage from "./pages/ItemPage";
 
-
+import myVideo from "./assets/videos/arial_match.mp4"
 
 
 function App() {
@@ -56,7 +56,7 @@ function App() {
             muted
             loop
             id="soccerVid"
-            src="src\assets\videos\arial_match.mp4"
+            src={myVideo}
             type="video/mp4"
           ></video>
         </div>
