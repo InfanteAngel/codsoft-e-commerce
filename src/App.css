@@ -238,7 +238,6 @@ section {
   background-size: cover;
 }
 
-
 .second-main-banner {
   background-image: url("./assets/main/ball_and_cleats.jpg");
   height: 25em;
@@ -1147,6 +1146,9 @@ section {
 .about-content {
   font-family: var(--accent-ff);
   font-weight: 300;
+  width: 40vw;
+  margin-bottom: 2em;
+  margin-right: 2em;
 }
 
 /* Nav Item Toggle bar */
@@ -1356,6 +1358,30 @@ section {
 
   .main-item-image {
     width: 100%;
+  }
+
+  .palco-about {
+    display: grid;
+    grid-auto-flow: row;
+    margin-inline: auto;
+    justify-content: center;
+    text-align: center;
+    margin-right: none;
+  }
+
+  .about-block{
+    margin-top: -5em;
+  }
+
+  .about-logo{
+    margin-inline: auto;
+  }
+
+
+  .about-content{
+    margin-left: 2em;
+    width: 60vw;
+    
   }
 
   .main-item-title {

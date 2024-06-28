@@ -185,7 +185,19 @@ const BlogContent = (props) => {
         </div>
         <div className="about-block">
           <h1 className="about-title">Our Story</h1>
-          <p className="about-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt asperiores architecto ullam beatae obcaecati aliquid est. Impedit, officiis quisquam esse voluptatibus culpa cupiditate iure, quod vitae sed consequuntur explicabo?</p>
+          <p className="about-content">
+            Palco, a vibrant store brand specializing in soccer gear and
+            merchandise, began its journey in 2010 with a passion for the
+            beautiful game. Founded by a group of former soccer players and
+            enthusiasts, Palco aimed to bridge the gap between quality and
+            affordability in soccer equipment. With a commitment to excellence, Palco quickly
+            gained a reputation for offering high-quality soccer gear, including
+            jerseys, cleats, balls, and accessories, all designed to enhance the
+            performance and enjoyment of the sport. Over the years, Palco has
+            grown into a trusted name in the soccer community, known for its
+            dedication to innovation, customer satisfaction, and a deep love for
+            the game.
+          </p>
         </div>
       </section>
     </div>
