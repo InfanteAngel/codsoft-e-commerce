@@ -19,7 +19,7 @@ import "./App.css";
 import SocialsBar, { socialIcons } from "./components/SocialsBar";
 import ItemPage from "./pages/ItemPage";
 
-
+import myMainImg from "./assets/main/ominus_pitch.jpg"
 
 function App() {
 
@@ -50,14 +50,7 @@ function App() {
       <NavBar {...navData} overlay={mainContent} />
       <div className="mainContentWrap" id="contentWrap">
         <div className="main-banner" id="banner-main">
-          <video
-            autoPlay
-            muted
-            loop
-            id="soccerVid"
-            src="C:\Users\djaji\OneDrive\Desktop\Palco-E-Commerce\palco-e-commerce-site\src\assets\videos\arial_match.mp4"
-            type="video/mp4"
-          ></video>
+          
         </div>
 
         <div className="second-main-banner">

@@ -11,7 +11,7 @@ import adidasProCarbon3 from "../assets/cleats/adult/adidas cleats/adidas predat
 import adidasCrazyFast from "../assets/cleats/adult/adidas cleats/messi-blue-cleats/adidas-x-crazyfast.avif";
 import adidasCrazyFast1 from "../assets/cleats/adult/adidas cleats/messi-blue-cleats/adidas-x-crazyfast-1.avif";
 import adidasCrazyFast2 from "../assets/cleats/adult/adidas cleats/messi-blue-cleats/adidas-x-crazyfast-2.avif";
-import adidasCrazyFast3 from "../assets/cleats/adult/adidas cleats/messi-blue-cleats/adidas-x-crazyfast-3.avif";
+import adidasCrazyFast3 from "../assets/cleats/adult/adidas cleats/messi-blue-cleats/adidas-x-crazyfast.avif";
 
 import adidasEliteX from "../assets/cleats/adult/adidas cleats/adidas-elite/adidas-elite-x.avif";
 import adidasEliteX1 from "../assets/cleats/adult/adidas cleats/adidas-elite/adidas-elite-x-1.avif";

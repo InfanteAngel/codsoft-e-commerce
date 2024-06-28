@@ -229,16 +229,15 @@ section {
 
 .main-banner {
   margin-top: -5em;
-  height: 100%;
+  height: 60rem;
   overflow: hidden;
   width: 100%;
+  background-image: url("./assets/main/ominus_pitch.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.main-banner video {
-  margin-top: 0vw;
-  width: 100%;
-  height: auto;
-}
 
 .second-main-banner {
   background-image: url("./assets/main/ball_and_cleats.jpg");
@@ -262,7 +261,6 @@ section {
   height: inherit;
   background-color: var(--accent-clr);
   text-align: center;
-  
 }
 
 .navList-blocks li {
@@ -1328,13 +1326,13 @@ section {
     padding: 2em;
   }
 
-.blog-grid {
-  margin-inline: auto;
-  overflow: scroll;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 80.271vw);
-  gap: 1em;
-}
+  .blog-grid {
+    margin-inline: auto;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 80.271vw);
+    gap: 1em;
+  }
 }
 
 @media (max-width: 1112px) {
