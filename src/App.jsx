@@ -19,7 +19,6 @@ import "./App.css";
 import SocialsBar, { socialIcons } from "./components/SocialsBar";
 import ItemPage from "./pages/ItemPage";
 
-import myVideo from "./assets/videos/arial_match.mp4"
 
 
 function App() {
@@ -56,7 +55,7 @@ function App() {
             muted
             loop
             id="soccerVid"
-            src={myVideo}
+            src="C:\Users\djaji\OneDrive\Desktop\Palco-E-Commerce\palco-e-commerce-site\src\assets\videos\arial_match.mp4"
             type="video/mp4"
           ></video>
         </div>
