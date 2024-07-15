@@ -987,7 +987,7 @@ export const trainingItemList = [
   {
     itemImg: premierBall,
     imgAlt: "Premier League Soccer Ball",
-    itemName: "Premier Leauge Soccer Ball",
+    itemName: "Premier League Soccer Ball",
     description: "Soccer Ball",
     itemGround: "ball",
     itemPrice: "$35",
@@ -997,7 +997,7 @@ export const trainingItemList = [
   {
     itemImg: womensUefa,
     imgAlt: "Womens Uefa Soccer Ball",
-    itemName: "Womens Uefa Leauge Soccer Ball",
+    itemName: "Womens Uefa League Soccer Ball",
     description: "Soccer Ball",
     itemGround: "ball",
     itemPrice: "$95",
