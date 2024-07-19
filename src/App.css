@@ -204,6 +204,7 @@ section {
   margin-top: -0.6em !important;
 }
 
+
 .userFavorite,
 .userItem {
   float: right;
@@ -215,7 +216,7 @@ section {
 }
 
 .nav-item:hover {
-  color: var(--accent-clr);
+  color: var(--neutral-500);
   cursor: pointer;
 }
 
@@ -233,6 +234,16 @@ section {
   overflow: hidden;
   width: 100%;
   background-image: url("./assets/main/ominus_pitch.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-banner {
+  margin-top: -5em;
+  height: 7rem;
+  overflow: hidden;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -878,7 +889,6 @@ section {
 
 .item-price {
   font-family: var(--accent-ff);
-  width: 5em;
   font-size: 4em;
   color: var(--accent-clr);
 }
@@ -927,10 +937,10 @@ section {
 
 .item-info {
   font-family: var(--accent-ff);
-  font-size: 1.3em;
+  font-size: 1.1em;
   padding: 0.3em;
   grid-area: e;
-  width: 38.4em;
+  width: 45em;
 }
 
 .buttonsContainer {
@@ -1369,19 +1379,17 @@ section {
     margin-right: none;
   }
 
-  .about-block{
+  .about-block {
     margin-top: -5em;
   }
 
-  .about-logo{
+  .about-logo {
     margin-inline: auto;
   }
 
-
-  .about-content{
+  .about-content {
     margin-left: 2em;
     width: 60vw;
-    
   }
 
   .main-item-title {
@@ -1453,9 +1461,13 @@ section {
   .mb-nav {
     display: block;
     position: fixed;
-    margin-top: 5em;
     width: 100%;
+    margin-top: 5em;
     z-index: 1;
+  }
+
+  .itemPage {
+    margin-top: 5em;
   }
 
   .mb-nav img {
@@ -1468,6 +1480,7 @@ section {
   }
 
   .mb-logo {
+    outline: 2px solid rebeccapurple;
     position: relative;
     z-index: 3;
   }
@@ -1490,8 +1503,9 @@ section {
   }
 
   .button-wrap {
-    margin-top: 3vw;
     display: flex;
+    background-color: #000000;
+    height: 10vw;
   }
 
   .x-button,
@@ -1501,6 +1515,7 @@ section {
     padding-right: 1vw;
     z-index: 4;
   }
+
 
   .x-button button,
   .burger-button button {
@@ -1518,6 +1533,8 @@ section {
     fill: var(--main-clr);
   }
 
+
+
   .nav-wrap {
     position: absolute;
     background: rgb(0, 0, 0);
@@ -1531,6 +1548,11 @@ section {
     height: 101vh;
     z-index: 2;
     animation: revealLeft 500ms forwards;
+  }
+
+  .item-info{
+    margin-top: 1rem;
+    text-align: left
   }
 
   @keyframes revealLeft {

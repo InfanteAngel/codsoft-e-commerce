@@ -15,6 +15,7 @@ import { favoriteList } from "../components/Itembox";
 import { trainingItemList } from "../components/Itembox";
 import { keeperItemList } from "../components/Itembox";
 import { jerseyItemList } from "../components/Itembox";
+import Banner from "../components/Banner";
 
 const paymentList = [
   {
@@ -148,20 +149,56 @@ const sizeJerseysUS = [
 
 const keeperSizeUS = [
   {
-    sizeNumber: "XS",
+    sizeNumber: 6,
     id: 1,
   },
   {
-    sizeNumber: "S",
+    sizeNumber: 6.5,
     id: 2,
   },
   {
-    sizeNumber: "M",
+    sizeNumber: 7,
     id: 3,
   },
   {
-    sizeNumber: "L",
+    sizeNumber: 7.5,
     id: 4,
+  },
+  {
+    sizeNumber: 8,
+    id: 5,
+  },
+  {
+    sizeNumber: 8.5,
+    id: 6,
+  },
+  {
+    sizeNumber: 9,
+    id: 7,
+  },
+  {
+    sizeNumber: 9.5,
+    id: 8,
+  },
+  {
+    sizeNumber: 10,
+    id: 9,
+  },
+  {
+    sizeNumber: 10.5,
+    id: 10,
+  },
+  {
+    sizeNumber: 11,
+    id: 11,
+  },
+  {
+    sizeNumber: 11.5,
+    id: 12,
+  },
+  {
+    sizeNumber: 12,
+    id: 13,
   },
 ];
 
@@ -252,13 +289,13 @@ function ItemPage({ toggle }, itemGround) {
       selectedList.push(selectedItem);
     }
 
-    // data.itemGround === "soft"
-    //   ? selectedList.push(selectedItemSG)
-    //   : selectedList.push(selectedItem);
+    // // data.itemGround === "soft"
+    // //   ? selectedList.push(selectedItemSG)
+    // //   : selectedList.push(selectedItem);
 
-    if (toggle === undefined) {
-      toggle = true;
-    }
+    // if (toggle === undefined) {
+    //   toggle = true;
+    // }
   }
 
   //Adds an item to the favorite list based on the list that was selected
@@ -300,15 +337,21 @@ function ItemPage({ toggle }, itemGround) {
   return (
     <>
       <ScrollToTop />
-      <NavBar {...navData} navState="navBar bg-dark" />
-      <div className="itemPage">
-        <div className="notification-wrap">
-          {noti ? (
-            <div className="cart-noti primary-ff">
-              <h1>Item Added To Cart!</h1>
+      <NavBar {...navData} navState="navBar bg-dark " />
+      <div>
+        <div className="item-banner" >
+          <div className="banner-header">
+            <div className="header-textBox">
             </div>
-          ) : null}
+          </div>
         </div>
+      </div>
+      <div className="notification-wrap">
+        {noti ? (
+          <div className="cart-noti primary-ff">
+            <h1>Item Added To Cart!</h1>
+          </div>
+        ) : null}
         <div className="modern-layout">
           <div className="main-item-image">
             {data.itemGround === "soft" ? (

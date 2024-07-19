@@ -92,11 +92,12 @@ export default function NavBar(props) {
           <FavoriteBox setToggleFav={setToggleFav} toggleFav={toggleFav} />
         ) : null}
         <div className="button-wrap">
-          <div>
-            <Link to="/">
+          <Link to="/">
+            <div>
               <img src={palcoLogo} alt="PalcoLogo" className="mb-logo" />
-            </Link>
-          </div>
+            </div>
+          </Link>
+
           {toggleMb ? (
             <div className="x-button">
               <button
@@ -123,11 +124,7 @@ export default function NavBar(props) {
         </div>
 
         {toggleMb ? (
-          <MobileNav
-            {...navData}
-            setToggle={toggle}
-            setToggleFav={toggleFav}
-          />
+          <MobileNav {...navData} setToggle={toggle} setToggleFav={toggleFav} />
         ) : null}
       </header>
     </>
