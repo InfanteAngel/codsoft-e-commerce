@@ -1255,6 +1255,7 @@ section {
   border: none;
   font-size: 1.3em;
   padding: 1.68em 1em;
+  color: #000000;
 }
 
 .fa-x {
@@ -1325,6 +1326,7 @@ section {
   background-color: var(--main-clr);
   border: 1px solid var(--accent-clr);
   transition: ease-in-out 300ms;
+  color: #000000;
 }
 
 .continue-shopping-btn:hover {
