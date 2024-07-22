@@ -1533,7 +1533,7 @@ section {
   .burger-button svg,
   .x-button svg {
     margin-top: 1.8vw;
-    width: 3.5vw;
+    width: 5vw;
     background-color: none;
     fill: var(--main-clr);
   }
