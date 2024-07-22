@@ -337,9 +337,9 @@ function ItemPage({ toggle }, itemGround) {
   return (
     <>
       <ScrollToTop />
-      <NavBar {...navData} navState="navBar bg-dark " />
+      <NavBar {...navData} navState="navBar bg-dark" />
       <div>
-        <div className="item-banner" >
+        <div className="item-banner">
           <div className="banner-header">
             <div className="header-textBox">
             </div>

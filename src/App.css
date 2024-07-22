@@ -247,6 +247,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
 .second-main-banner {
@@ -738,6 +739,7 @@ section {
     "a c"
     "a ."
     "e d";
+  gap: 1rem;
 }
 
 .itemPage {
@@ -747,6 +749,7 @@ section {
 .notification-wrap {
   width: 100%;
   position: absolute;
+  z-index: 1;
 }
 
 .cart-noti {
@@ -758,12 +761,15 @@ section {
   color: #f5f5f5;
   text-align: center;
   border-radius: 3px;
-  float: right;
-  margin-top: 0.5vw;
+  justify-items: right;
+  margin-left: 88vw;
+  margin-top: -2rem;
   margin-right: 2vw;
   font-size: 0.5vw;
   padding: 0.2vw;
   animation: reveal 1.5s forwards;
+  position: absolute;
+  z-index: 1;
 }
 
 @keyframes reveal {
@@ -940,7 +946,7 @@ section {
   font-size: 1.1em;
   padding: 0.3em;
   grid-area: e;
-  width: 45em;
+  width: 50rem;
 }
 
 .buttonsContainer {
@@ -1463,7 +1469,7 @@ section {
     position: fixed;
     width: 100%;
     margin-top: 5em;
-    z-index: 1;
+    z-index: 2;
   }
 
   .itemPage {
