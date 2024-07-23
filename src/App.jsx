@@ -50,7 +50,9 @@ function App() {
       <NavBar {...navData} overlay={mainContent} />
       <div className="mainContentWrap" id="contentWrap">
         <div className="main-banner" id="banner-main">
-          
+          <div className="logo_placeholder">
+            <img src={palcoLogo} alt="Palco Logo" />
+          </div>
         </div>
 
         <div className="second-main-banner">
