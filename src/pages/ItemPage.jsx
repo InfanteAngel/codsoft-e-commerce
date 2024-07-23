@@ -17,6 +17,10 @@ import { keeperItemList } from "../components/Itembox";
 import { jerseyItemList } from "../components/Itembox";
 import Banner from "../components/Banner";
 
+// Confetti Library
+import {useReward} from 'react-rewards'
+
+
 const paymentList = [
   {
     icon: <i className="fa-solid fa-credit-card"></i>,
@@ -228,6 +232,7 @@ function ItemPage({ toggle }, itemGround) {
   );
   const selectedJerseyItem = jerseyItemList.find(({ id }) => id === data.id);
   const [noti, setNoti] = useState(false);
+  // const {reward, isAnimating} = useReward('rewardId', 'confetti')
   //Initially sets a default item to accept size
 
   function defaultItem() {
@@ -296,6 +301,10 @@ function ItemPage({ toggle }, itemGround) {
     // if (toggle === undefined) {
     //   toggle = true;
     // }
+    return(
+      <Confetti
+      />
+    )
   }
 
   //Adds an item to the favorite list based on the list that was selected
@@ -876,5 +885,7 @@ const ItemSizeBox = (props) => {
     </div>
   );
 };
+
+
 
 export default ItemPage;
